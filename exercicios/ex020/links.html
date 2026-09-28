@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+        }
+
+        a {
+            color: #7bac1a;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #2a95bc;
+        }
+
+        a:hover {
+            color: #ac0da9;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #ff0000;
+        }
+
+        a::after {
+            content: " (link externo)";
+            font-weight: normal;
+            color: #727806;
+            decoration: none;
+        }
+
+        .especial {
+            content: '📎';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Denyselopes" classe="especial" target="_blank">Repositorio github</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">Canal no youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site curso em video</a></li>
+        <li><a href="https://www.google.com" target="_blank">Site google</a></li>
+    </ul>
+    
+</body>
+</html>
